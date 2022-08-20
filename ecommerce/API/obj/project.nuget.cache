@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "mtkwNKUKbT+n0UIjdi5yTE0AAH2PYjyvzjggdcbK9jZFUp1WIDcHKF9dmgo+L1Se7joxEpqjlJ/yXGfmkk3zUQ==",
+  "success": true,
+  "projectFilePath": "/Users/gracjan/Development/ecommerce/API/API.csproj",
+  "expectedPackageFiles": [
+    "/Users/gracjan/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/gracjan/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/gracjan/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/gracjan/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/gracjan/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/gracjan/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
