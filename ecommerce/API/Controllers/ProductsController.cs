@@ -1,4 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
+using API.Data;
+using System.Collections.Generic;
+using API.Entities;
+
+
 
 namespace API.Controllers
 {
@@ -7,10 +12,19 @@ namespace API.Controllers
 
     public class ProductsController : ControllerBase
     {
-        [HttpGet]
-        public string GetProducts()
+        private readonly StoreContext _context;
+        public ProductsController(StoreContext context)
         {
-            return "to bedzie lista produktow";
+            _context = context;
+        }
+
+        
+        [HttpGet]
+        public ActionResult<List<Product>> GetProducts()
+        {
+            var products = _context.Products.ToList();
+
+            return Ok(products);
         }
 
 
